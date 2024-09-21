@@ -15,6 +15,7 @@ class JPmorgan {
 
     def scrape(): Unit = {
       val options = new ChromeOptions
+
       options.addArguments("--remote-allow-origins=*")
       val driver = new ChromeDriver(options)
       driver.manage.window.maximize()
