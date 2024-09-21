@@ -1,0 +1,23 @@
+*.jar
+target/
+tmp/
+settings.xml
+
+# IDEA
+.idea
+*.iml
+.idea_modules
+
+#GIT
+.gitreview
+
+#MacOS
+.DS_Store
+jacoco.exec
+
+### Scala template
+*.class
+*.log
+
+### JAVA
+.jvmopts
